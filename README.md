@@ -9,9 +9,8 @@ Project a 2D detection to 3D within an RGB-D camera.
 
 ## Notice ##
 
-- The current version is tested with [darknet_ros](https://github.com/leggedrobotics/darknet_ros), that is, subscribing to `darknet_ros/bounding_boxes` ([darknet_ros_msgs/BoundingBoxes](https://github.com/leggedrobotics/darknet_ros/tree/master/darknet_ros_msgs)) topic. If you need to subscribe to other types of topics, please modify the code yourself.
-
-- The current published message type is [vision_msgs\Detection3DArray](http://docs.ros.org/en/api/vision_msgs/html/index-msg.html). Similarly, please modify the code if other types are required.
+- The current version is tested with [darknet_ros](https://github.com/leggedrobotics/darknet_ros), that is, subscribing to `darknet_ros/bounding_boxes` ([darknet_ros_msgs/BoundingBoxes](https://github.com/leggedrobotics/darknet_ros/tree/master/darknet_ros_msgs)) topic. If you need to subscribe to other types, please modify the code yourself.
+- The current published message type is [vision_msgs/Detection3DArray](http://docs.ros.org/en/api/vision_msgs/html/index-msg.html). Similarly, please modify the code if other types are required.
 
 ## How to build ##
 ```sh
