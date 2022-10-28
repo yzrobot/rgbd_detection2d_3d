@@ -35,11 +35,15 @@ ROS Noetic
 ## Citation ##
 If you are considering using this code, please reference the following:
 ```
-@inproceedings{yz18iros,
-   title={Multisensor Online Transfer Learning for 3D LiDAR-based Human Detection with a Mobile Robot},
-   author={Zhi Yan and Li Sun and Tom Duckett and Nicola Bellotto},
-   booktitle = {Proceedings of the 2018 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
-   pages = {7635--7640},
-   year = {2018}
+@article{io22software,
+   author  = {Iaroslav Okunevich and Vincent Hilaire and Stephane Galland and Olivier Lamotte and Liubov Shilova and Yassine Ruichek and Zhi Yan},
+   title   = {Software-hardware Integration and Human-centered Benchmarking for Socially-compliant Robot Navigation},
+   journal = {CoRR},
+   volume = {abs/2210.15628},
+   year = {2022},
+   url = {http://arxiv.org/abs/2210.15628},
+   archivePrefix = {arXiv},
+   eprint = {2210.15628}
 }
+```
 ```
